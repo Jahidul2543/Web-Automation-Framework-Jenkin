@@ -12,6 +12,8 @@ public class GetMenus extends CommonAPI {
          List<String > dropDownMenuAll = new ArrayList<String>();
          dropDownMenuAll = getTextFromWebElements("#searchDropdownBox option");
           return dropDownMenuAll;
+
+          
      }
 
 
